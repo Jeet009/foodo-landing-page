@@ -6,7 +6,7 @@ function TopContainer() {
     <>
       <div className="background"></div>
       <div className="texture">
-        <Container>
+        <Container className="container-top">
           <Row className="section-top">
             <Col xs={12} md={6} className="section-top-left">
               <img className="img-fluid" src="/assets/mobile.png" />
