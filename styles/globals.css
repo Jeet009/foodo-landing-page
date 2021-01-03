@@ -90,5 +90,35 @@ a {
 /* Service Container  */
 .service-container {
   min-height: 50vh;
-  background-color: transparent;
+}
+.service-img {
+  width: 200px;
+}
+
+/* About Component  */
+.about-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.download-component {
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-download img {
+  width: 150px;
+}
+.contact-component {
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 30vh;
 }
