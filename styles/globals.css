@@ -94,13 +94,24 @@ a {
 .service-img {
   width: 200px;
 }
-
+.service-container-bg {
+  background-color: white;
+  padding-top: 100px;
+}
 /* About Component  */
+.about-container-bg {
+  background-color: white;
+}
 .about-details {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+/* Download Component  */
+.download-container-bg {
+  background-color: white;
 }
 .download-component {
   min-height: 40vh;
@@ -117,8 +128,13 @@ a {
 .img-download img {
   width: 150px;
 }
+
+/* Contact Component  */
 .contact-component {
   padding-left: 20px;
   padding-right: 20px;
   min-height: 30vh;
+}
+.contact-container-bg {
+  background-color: white;
 }
