@@ -134,7 +134,23 @@ a {
   padding-left: 20px;
   padding-right: 20px;
   min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contact-container-bg {
-  background-color: white;
+  background-color: rgb(255, 214, 175);
+}
+.fa {
+  margin-left: 5px;
+  font-size: 20px;
+}
+/* Footer  */
+.footer {
+  background-color: rgb(43, 31, 20);
+  color: white;
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
